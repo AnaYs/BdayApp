@@ -43,3 +43,8 @@ gem 'bootstrap-sass'
 gem 'font-awesome-sass'
 gem 'simple_form'
 
+group :production do
+  gem 'rails_12factor', group: :production
+  gem 'puma',           group: :production
+end
+
